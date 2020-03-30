@@ -1,0 +1,10 @@
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\bin\Debug\Pizzaria.exe.config
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\bin\Debug\Pizzaria.exe
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\bin\Debug\Pizzaria.pdb
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.Form1.resources
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.Properties.Resources.resources
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.csproj.GenerateResource.cache
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.exe
+C:\Users\alexa\source\repos\Pizzaria\Pizzaria\obj\Debug\Pizzaria.pdb
