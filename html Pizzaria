@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ansjoria</title>
+  </head>
+  <body>
+    <h1 style="color:darkred">Ansjoria</h1>
+    <div>Choose a pizza</div>
+    <div style="color:white">s</div>
+    
+    <span>Hawaii</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssssssss</span><input name="stor1" type="checkbox"/>Stor<input name="lille1" type="checkbox"/>Lille
+    <span style="color:white">ssssssssss</span>Pris 65/55 Kr.
+    <div>Ansjoser, Ananas, ost, tomat sovs, brun sovs.</div>
+    <span>Vegetar</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssssssss</span><input name="stor2" type="checkbox"/>Stor<input name="lille2" type="checkbox"/>Lille
+    <span style="color:white">ssssssssss</span>Pris 65/55 Kr.
+    <div>Ansjoser, jordbær, banan, kartofler, salat.</div>
+      <span>Gorgonzola</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssss</span><input name="stor3" type="checkbox"/>Stor<input name="lille3" type="checkbox"/>Lille
+    <span style="color:white">ssssssssss</span>Pris 65/55 Kr.
+      <div>Ansjoser, gorgonzola, rababer, chokolade, tomat sovs, ost.</div>
+    <div style="color:white">s</div>
+    <div style="color:white">s</div>
+    
+    <div>Make your own pizza. Pris 99 Kr.</div>
+    <div style="color:white">s</div>
+    <div>Dough</div>
+    <input name="dough1" type="checkbox"/>Sour
+    <input name="dough2" type="checkbox"/>Regular
+    <div>Cheese</div>
+    <input name="cheese1" type="checkbox"/>Gorgonzola
+    <input name="cheese2" type="checkbox"/>Blue cheese
+    <div>Spice</div>
+    <input name="spice1" type="checkbox"/>Pepper
+    <input name="spice2" type="checkbox"/>Salt
+    <div>Toppings</div>
+    <input name="toppings1" type="checkbox"/>Ansjoser og rababer.
+    <input name="toppings2" type="checkbox"/>Ansjoser og havregryn.
+    <input name="toppings3" type="checkbox"/>Ansjoser og flæskesvær.
+    <div>Sovs</div>
+    <input name="sovs1" type="checkbox"/>Brun sovs.
+    <input name="sovs2" type="checkbox"/>Persillesovs.
+    <div>Størrelse</div>
+    <input name="stor4" type="checkbox"/>Stor
+    <input name="Lille4" type="checkbox"/>Lille
+    <div style="color:white">s</div>
+    <div style="color:white">s</div>
+    <div>Kommentar felt</div>
+    <textarea rows="10" cols="30">
+    </textarea><input type="submit">
+    
+        
+  </body>
+</html>
