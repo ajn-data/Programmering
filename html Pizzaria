@@ -8,18 +8,20 @@
     <div>Choose a pizza</div>
     <div style="color:white">s</div>
     
-    <span>Hawaii</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssssssss</span><input name="stor1" type="checkbox"/>Stor<input name="lille1" type="checkbox"/>Lille
+    <!-- Bestil færdig pizza -->
+    <span>Hawaii</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssssssss</span><input id="stor1" name="stor1" type="checkbox" onclick="myFunction()"/>Stor<input id="lille1" name="lille1" type="checkbox" onclick="myFunction2()"/>Lille
     <span style="color:white">ssssssssss</span>Pris 65/55 Kr.
     <div>Ansjoser, Ananas, ost, tomat sovs, brun sovs.</div>
-    <span>Vegetar</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssssssss</span><input name="stor2" type="checkbox"/>Stor<input name="lille2" type="checkbox"/>Lille
+    <span>Vegetar</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssssssss</span><input id="stor2" name="stor2" type="checkbox" onclick="myFunction()"/>Stor<input id="lille2" name="lille2" type="checkbox" onclick="myFunction2()"/>Lille
     <span style="color:white">ssssssssss</span>Pris 65/55 Kr.
     <div>Ansjoser, jordbær, banan, kartofler, salat.</div>
-      <span>Gorgonzola</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssss</span><input name="stor3" type="checkbox"/>Stor<input name="lille3" type="checkbox"/>Lille
+      <span>Gorgonzola</span><span style="color:white">sssssssssssssssssssssssssssssssssssssssssssssssssss</span><input id="stor3" name="stor3" type="checkbox" onclick="myFunction()"/>Stor<input id="lille3" name="lille3" type="checkbox" onclick="myFunction2()"/>Lille
     <span style="color:white">ssssssssss</span>Pris 65/55 Kr.
-      <div>Ansjoser, gorgonzola, rababer, chokolade, tomat sovs, ost.</div>
+      <div>Ansjoser, gorgonzola, rababer, chokolade, tomat sovs.</div>
     <div style="color:white">s</div>
     <div style="color:white">s</div>
     
+    <!-- Lav din egen pizza -->
     <div>Make your own pizza. Pris 99 Kr.</div>
     <div style="color:white">s</div>
     <div>Dough</div>
@@ -39,14 +41,64 @@
     <input name="sovs1" type="checkbox"/>Brun sovs.
     <input name="sovs2" type="checkbox"/>Persillesovs.
     <div>Størrelse</div>
-    <input name="stor4" type="checkbox"/>Stor
-    <input name="Lille4" type="checkbox"/>Lille
+    <input id="stor4" name="stor4" type="checkbox" onclick="myFunction()" />Stor
+    <input id="lille4" name="lille4" type="checkbox"/>Lille
     <div style="color:white">s</div>
     <div style="color:white">s</div>
+    
+    <!-- Kommentarfelt, bestil knap og total pris -->
     <div>Kommentar felt</div>
     <textarea rows="10" cols="30">
-    </textarea><input type="submit">
-    
-        
+    </textarea>
+    <input name="bestil" type="submit" value="Bestil">
+    <p id="stortotalpris" style="display:none">Total Pris 65 Kr.</p><p id="lilletotalpris" style="display:none"> Total pris 55 Kr.</p><p id="totalpris3" style="display:none">Total Pris 120 Kr.</p>
+ 
+    <!-- function/metode til at vise total pris -->
+<script>
+function myFunction() {
+  
+  var Stor1 = document.getElementById('stor1');
+  var Stor2 = document.getElementById('stor2');
+  var Stor3 = document.getElementById('stor3');
+  var Stor4 = document.getElementById("stor4");
+  var totalPris = document.getElementById("stortotalpris");
+  
+  if (Stor1.checked == true){
+    totalPris.style.display = "block";
+  } 
+  else if (Stor2.checked == true){
+    totalPris.style.display = "block";
+  }
+  else if (Stor3.checked == true){
+    totalPris.style.display = "block";
+  }
+  else {
+    totalPris.style.display = "none";
+  }
+}
+</script>
+
+<script>
+function myFunction2() {
+  
+  var Lille1 = document.getElementById('lille1');
+  var Lille2 = document.getElementById('lille2');
+  var Lille3 = document.getElementById('lille3');
+  var TotalPris = document.getElementById("lilletotalpris");
+  
+  if (Lille1.checked == true){
+    TotalPris.style.display = "block";
+  } 
+  else if (Lille2.checked == true){
+    TotalPris.style.display = "block";
+  }
+  else if (Lille3.checked == true){
+    TotalPris.style.display = "block";
+  }
+  else {
+    TotalPris.style.display = "none";
+  }
+}
+</script>
   </body>
 </html>
